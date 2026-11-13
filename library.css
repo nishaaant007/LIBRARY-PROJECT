@@ -1,0 +1,167 @@
+
+/* BODY DESIGN */
+body {
+    background-color: #eef3f8;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER DESIGN */
+header {
+    background-color: #163b65;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION MENU */
+nav {
+    background-color: #245789;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* SECTION BOX DESIGN */
+.box {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+/* HEADINGS */
+h2 {
+    color: #163b65;
+    border-bottom: 2px solid #245789;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #245789;
+}
+
+/* PARAGRAPH AND LIST */
+p {
+    line-height: 1.6;
+}
+
+li {
+    margin: 10px;
+}
+
+/* FORM DESIGN */
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* BUTTON DESIGN */
+button {
+    background-color: #245789;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #102f50;
+}
+
+/* TABLE DESIGN */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #245789;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: center;
+}
+
+/* COMPLAINT STATUS COLORS */
+.pending {
+    color: red;
+    font-weight: bold;
+}
+
+.progress {
+    color: orange;
+    font-weight: bold;
+}
+
+.resolved {
+    color: green;
+    font-weight: bold;
+}
+
+/* ADMIN DASHBOARD CARDS */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #dceafa;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #aac5e0;
+}
+
+.card h3 {
+    font-size: 28px;
+    color: #163b65;
+}
+
+/* FOOTER DESIGN */
+footer {
+    background-color: #163b65;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
